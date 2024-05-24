@@ -1,0 +1,70 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/typescript",
+    "prettier"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["dist/"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "eqeqeq": ["error", "always"],
+    "import/named": "off",
+    "prettier/prettier": "error",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "markers": ["/"]
+      }
+    ],
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-namespace": [
+      "error",
+      {
+        "allowDeclarations": true
+      }
+    ],
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "array"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src", "types", "", "dist"],
+        "extensions": [".css", ".js", ".json", ".jsx", ".scss", ".ts", ".tsx"]
+      },
+      "eslint-import-resolver-typescript": true,
+      "typescript": true
+    },
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    }
+  },
+  "plugins": ["prettier", "@typescript-eslint", "import"],
+  "parser": "@typescript-eslint/parser"
+}
