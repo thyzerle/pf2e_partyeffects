@@ -1,0 +1,7 @@
+{
+  "pf2e-partyeffects": {
+    "error": {
+      "gmNotOnline": "The GM has to be online to apply party effects."
+    }
+  }
+}
