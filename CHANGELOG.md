@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 2024-08-05
+
+### Added
+
+- Bumped compatibility to Foundry V12 and PF2e V6.2.0
+
 ## [1.0.1] - 2024-05-24
 
 ### Fixed

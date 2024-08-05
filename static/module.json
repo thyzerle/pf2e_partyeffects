@@ -2,10 +2,10 @@
   "id": "pf2e-partyeffects",
   "title": "PF2e Party Effects",
   "description": "This module allows players to apply effects to all party members.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
   },
   "socket": true,
   "esmodules": ["pf2e-partyeffects.mjs"],
@@ -16,7 +16,8 @@
         "type": "system",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
         "compatibility": {
-          "minimum": "5.15.3"
+          "minimum": "5.15.3",
+          "verified": "6.2.0"
         }
       }
     ],
@@ -52,7 +53,7 @@
   ],
   "url": "https://github.com/thyzerle/pf2e_partyeffects",
   "manifest": "https://github.com/thyzerle/pf2e_partyeffects/releases/latest/download/module.json",
-  "download": "https://github.com/thyzerle/pf2e_partyeffects/releases/download/v1.0.1/pf2e_partyeffects.zip",
+  "download": "https://github.com/thyzerle/pf2e_partyeffects/releases/download/v1.0.2/pf2e_partyeffects.zip",
   "readme": "https://github.com/thyzerle/pf2e_partyeffects/blob/main/README.md",
   "changelog": "https://github.com/thyzerle/pf2e_partyeffects/blob/main/CHANGELOG.md"
 }
